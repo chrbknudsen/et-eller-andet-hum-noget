@@ -1,0 +1,69 @@
+---
+title: "metadata"
+author: "Christian Knudsen"
+date: "2024-06-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Vi har tre datasæt.
+
+## kb_emnekoder.csv
+
+| felt         | indhold  |
+|--------------|----------|
+| Subject code | Emnekode |
+| Subject term | Emneterm |
+
+## metadata-dan-filtered-2.csv
+
+AIA: Absolut Ingen Anelse
+
+| felt          | indhold                 |
+|---------------|-------------------------|
+| author1       | Forfatter 1             |
+| author2       | Forfatter 2             |
+| title         | Værktitle               |
+| year          | Udgivelsesår            |
+| publisher     | Forlag                  |
+| place         | Udgivelsessted          |
+| language      | Sprog                   |
+| sub_1         | AIA                     |
+| sub_2         | AIA                     |
+| sub_3 1       | AIA                     |
+| sub_3 2       | AIA                     |
+| sub_4         | AIA                     |
+| misc_comments | Diverse kommentarer     |
+| year_st       | "Standardiseret" årstal |
+| sub_3_st      | AIA                     |
+
+## metadata-dan-filtered-emnekoder-csv.csv
+
+AIA: Absolut Ingen Anelse
+
+| felt          | indhold        |
+|---------------|----------------|
+| author1       | Forfatter 1    |
+| author2       | Forfatter 2    |
+| title 1       | Værktitel 1    |
+| title 2       | Værktitel 2    |
+| title 3       | Værktitel 3    |
+| title 4       | Værktitel 4    |
+| title 5       | Værktitel 5    |
+| title 6       | Værktitel 6    |
+| title 7       | Værktitel 7    |
+| year          | Udgivelsesår   |
+| publisher     | Forlag         |
+| place         | Udgivelsessted |
+| language      | Sprog          |
+| sub_1         | AIA            |
+| sub_2         | AIA            |
+| Subject code  | Emnekode               |
+| KB emnekoder  | Emneterm               |
+| sub_4         | AIA               |
+| misc_comments |  Diverse kommentarer              |
+| year_st       |  "Standardiseret" årstal              |
+| sub_3_st      |    AIA            |

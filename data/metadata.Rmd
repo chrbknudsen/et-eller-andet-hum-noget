@@ -11,59 +11,61 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Vi har tre datasæt.
 
+Saniteret variabel refererer til variabelnavne efter read_sanitize.R scriptet er kørt.
+
 ## kb_emnekoder.csv
 
-| felt         | indhold  |
-|--------------|----------|
-| Subject code | Emnekode |
-| Subject term | Emneterm |
+| felt         | indhold  | Saniteret variabel |
+|--------------|----------|--------------------|
+| Subject code | Emnekode | subject_code       |
+| Subject term | Emneterm | subject_term       |
 
 ## metadata-dan-filtered-2.csv
 
 AIA: Absolut Ingen Anelse
 
-| felt          | indhold                 |
-|---------------|-------------------------|
-| author1       | Forfatter 1             |
-| author2       | Forfatter 2             |
-| title         | Værktitle               |
-| year          | Udgivelsesår            |
-| publisher     | Forlag                  |
-| place         | Udgivelsessted          |
-| language      | Sprog                   |
-| sub_1         | AIA                     |
-| sub_2         | AIA                     |
-| sub_3 1       | AIA                     |
-| sub_3 2       | AIA                     |
-| sub_4         | AIA                     |
-| misc_comments | Diverse kommentarer     |
-| year_st       | "Standardiseret" årstal |
-| sub_3_st      | AIA                     |
+| felt          | indhold                 | Saniteret variabel |
+|---------------|-------------------------|--------------------|
+| author1       | Forfatter 1             | author1            |
+| author2       | Forfatter 2             | author2            |
+| title         | Værktitle               | title              |
+| year          | Udgivelsesår            | year               |
+| publisher     | Forlag                  | publisher          |
+| place         | Udgivelsessted          | place              |
+| language      | Sprog                   | language           |
+| sub_1         | AIA                     | sub_1              |
+| sub_2         | AIA                     | sub_2              |
+| sub_3 1       | AIA                     | sub_3_1            |
+| sub_3 2       | AIA                     | sub_3_2            |
+| sub_4         | AIA                     | sub_4              |
+| misc_comments | Diverse kommentarer     | misc_comments      |
+| year_st       | "Standardiseret" årstal | year_st            |
+| sub_3_st      | AIA                     | sub_3_st           |
 
 ## metadata-dan-filtered-emnekoder-csv.csv
 
 AIA: Absolut Ingen Anelse
 
-| felt          | indhold        |
-|---------------|----------------|
-| author1       | Forfatter 1    |
-| author2       | Forfatter 2    |
-| title 1       | Værktitel 1    |
-| title 2       | Værktitel 2    |
-| title 3       | Værktitel 3    |
-| title 4       | Værktitel 4    |
-| title 5       | Værktitel 5    |
-| title 6       | Værktitel 6    |
-| title 7       | Værktitel 7    |
-| year          | Udgivelsesår   |
-| publisher     | Forlag         |
-| place         | Udgivelsessted |
-| language      | Sprog          |
-| sub_1         | AIA            |
-| sub_2         | AIA            |
-| Subject code  | Emnekode               |
-| KB emnekoder  | Emneterm               |
-| sub_4         | AIA               |
-| misc_comments |  Diverse kommentarer              |
-| year_st       |  "Standardiseret" årstal              |
-| sub_3_st      |    AIA            |
+| felt          | indhold                 | Santeret variabel |
+|---------------|-------------------------|-------------------|
+| author1       | Forfatter 1             | author1           |
+| author2       | Forfatter 2             | author2           |
+| title 1       | Værktitel 1             | title_1           |
+| title 2       | Værktitel 2             | title_2           |
+| title 3       | Værktitel 3             | title_3           |
+| title 4       | Værktitel 4             | title_4           |
+| title 5       | Værktitel 5             | title_5           |
+| title 6       | Værktitel 6             | title_6           |
+| title 7       | Værktitel 7             | title_7           |
+| year          | Udgivelsesår            | year              |
+| publisher     | Forlag                  | publisher         |
+| place         | Udgivelsessted          | place             |
+| language      | Sprog                   | language          |
+| sub_1         | AIA                     | sub_1             |
+| sub_2         | AIA                     | sub_2             |
+| Subject code  | Emnekode                | subject_code      |
+| KB emnekoder  | Emneterm                | kb_emnekoder      |
+| sub_4         | AIA                     | sub_4             |
+| misc_comments | Diverse kommentarer     | misc_comments     |
+| year_st       | "Standardiseret" årstal | year_st           |
+| sub_3_st      | AIA                     | sub_3_st          |

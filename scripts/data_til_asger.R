@@ -1,6 +1,9 @@
 # Datatræk til Asger
 # Træk af places, udgivere og forfattere mhp konsolidering af navneformer
 
+library(tidyverse)
+
+
 dan_filter_meta %>% 
   select(place) %>% 
   distinct() %>% 

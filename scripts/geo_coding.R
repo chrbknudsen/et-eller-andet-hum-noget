@@ -7,3 +7,5 @@
 
 library(tidygeocoder)
 tidygeocoder::geo("København")
+
+
